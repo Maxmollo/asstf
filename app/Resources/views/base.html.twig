@@ -5,6 +5,7 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}
             <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}"/>
+            <link rel="stylesheet" href="{{ asset('css/small-business.css') }}"/>
         {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
@@ -12,6 +13,7 @@
         {% block body %}{% endblock %}
         {% block javascripts %}
             <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.css') }}" ></script>
+            <script src="{{ asset('vendor/jquery/js/jquery.min.css') }}" ></script>
         {% endblock %}
     </body>
 </html>
